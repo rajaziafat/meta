@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import Logo from '../../assets/images/logo.png'
+import Logo from '../../assets/images/logo.svg'
 import DecordIcon from '../../assets/images/decord.png'
 import HouseModel from '../../assets/images/HouseModel.png'
 import {FaTwitter,FaInstagram,FaBars} from 'react-icons/fa'
@@ -69,7 +69,7 @@ const Navbar = () => {
                     </div>
                     <AiFillCloseCircle className="text-white text-[32px]" onClick={handleClose}/>
                     </div>
-                    <ul className="mt-4 px-5">
+                    <ul className="mt-4 px-5 list1">
                   <li className="flex items-center border-b border-gray-400 text-white pb-3" onClick={handleClick}>
                     <a href="#home" className="text-sm font-bold">
                         HOME

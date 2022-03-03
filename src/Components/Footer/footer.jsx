@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/images/logo.png'
+import Logo from '../../assets/images/logo.svg'
 import {FaTwitter,FaInstagram} from 'react-icons/fa'
 import DecordIcon from '../../assets/images/decord.png'
 
