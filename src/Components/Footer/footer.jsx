@@ -8,12 +8,8 @@ function Footer() {
         <>
         <div className="flex flex-col items-center py-14" style={{background:"rgba(255,255,255,)"}}>
             <div className="flex items-center justify-center">
-                        <div className="relative">
                         <img src={Logo} alt="logo" srcset="" />
-                        <div className="w-2 h-2 rounded-full bg-[orange] absolute top-[42%] left-[42%]"></div>
                         </div>
-                        <h4 className="text-white ml-3 text-[24px] font-semibold">METAESTATE</h4>
-                    </div>
                     <h1 className="sm:text-[32px] text-[24px] font-black text-white mt-4">JOIN THE COMMUNITY</h1>
                     <div className="flex mt-7">
 

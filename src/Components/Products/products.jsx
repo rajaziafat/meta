@@ -222,7 +222,7 @@ function Products() {
         </div>
 
 
-                    <div className="lg:hidden md:flex flex-col items-center hidden" id="team">
+                    <div className="lg:hidden md:flex flex-col items-center hidden" id="team1">
         <div className="lg:w-[1025px] md:w-[800px] sm-[575px] w-[260px] mt-14 overflow-hidden">
                     <div className='flex w-[1025px] gap-5 slider1'>
                     <div className="w-[300px] h-[340px] slide1" style={{background:"rgba(255,255,255,.12)"}}>
@@ -279,7 +279,7 @@ function Products() {
                     </div>
                     </div>
 
-                    <div className="md:hidden flex flex-col items-center" id="team">
+                    <div className="md:hidden flex flex-col items-center" id="team2">
         <div className="lg:w-[1025px] md:w-[800px] sm-[575px] w-[260px] mt-14 overflow-hidden">
                     <div className='flex w-[1025px] gap-5 slider2'>
                     <div className="w-[300px] h-[340px] slide1" style={{background:"rgba(255,255,255,.12)"}}>

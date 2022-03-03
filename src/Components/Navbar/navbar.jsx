@@ -34,11 +34,7 @@ const Navbar = () => {
             <img src={HouseModel} className="absolute lg:top-[58%] md:top-[65%] sm:top-[70%] top-[75%] lg:w-[45%] sm:w-[55%] w-[70%]" alt="housemodel" srcset="" />
                 <div className="w-[80%] flex items-center justify-between py-3 ">
                     <div className="flex items-center">
-                    <div className="relative">
                         <img src={Logo} alt="logo" srcset="" />
-                        <div className="w-2 h-2 rounded-full bg-[orange] absolute top-[42%] left-[42%]"></div>
-                        </div>
-                        <h4 className="text-white ml-3">METAESTATE</h4>
                     </div>
                     <div className="flex">
                     <ul className="list-none list1 lg:flex hidden flex justify-between items-center text-[14px]">
@@ -69,11 +65,7 @@ const Navbar = () => {
             <div className='absolute w-[100%] z-50 top-0 left-0 overflow-hidden bg-dark' style={{height:"100vh"}}>
                     <div className="flex justify-between items-center px-8 py-4">
                     <div className="flex items-center">
-                    <div className="relative">
                         <img src={Logo} alt="logo" srcset="" />
-                        <div className="w-2 h-2 rounded-full bg-[orange] absolute top-[42%] left-[42%]"></div>
-                        </div>
-                        <h4 className="text-white ml-3">METAESTATE</h4>
                     </div>
                     <AiFillCloseCircle className="text-white text-[32px]" onClick={handleClose}/>
                     </div>
@@ -104,7 +96,10 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li className="flex items-center border-b border-gray-400 text-white pb-3 mt-3"  onClick={handleClick}>
-                    <a href="#team" className="text-sm font-bold navlink">
+                    <a href="#team1" className="text-sm font-bold navlink md:flex hidden">
+                    TEAM
+                    </a>
+                    <a href="#team2" className="text-sm font-bold navlink md:hidden flex">
                     TEAM
                     </a>
                   </li>
